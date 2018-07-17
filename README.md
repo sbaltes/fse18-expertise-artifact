@@ -4,36 +4,34 @@ This artifact enables researchers to replicate the quantitative results from our
 
 ## Documentation
 
-In the directory `doc`, you will find the questionnaire and codebooks used for samples 1, 2, and 3.
-Moreover, we provide our research questions for phase 1 and 2.
+In the directory `doc`, you will find the questionnaires and codebooks used for sample S1 (phase 2) and samples S2 and S3 (phase 3). Moreover, we provide our research questions for phases 1 and 2.
 
 ## Demographics
 
-To create the file `results/demographics.csv`, which corresponds to Table 1 in the paper, please execute the R script `src/demographics.R`.
-This R script also creates two figures that didn't make it into the paper (`results/boxplots_experience_expertise.pdf` and `results/likert_expertise.pdf`) and contains analyses of demographic variables that we described in Sections 3.1 and 5.2 (gender, main role, continent).
+To create the file `results/demographics.csv`, which corresponds to Table 1 in the paper, please execute the R script `src/demographics.R`. This R script also creates two figures that didn't make it into the paper (`results/boxplots_experience_expertise.pdf` and `results/likert_expertise.pdf`) and contains analyses of demographic variables that we described in Sections 3.1 and 5.2 (*gender*, *main role*, *continent*).
 
 ## Closed-ended questions
 
-In Section 5.3 of the paper, we mention results from closed-ended questions asking about the concepts *monitoring*,  *mentoring*, and *performance decline*. You will find the corresponding analysis in the R script `src/closed_ended_questions.R`.
+In Section 5.3 of the paper, we describe results from closed-ended questions asking about the concepts *monitoring*,  *mentoring*, and *performance decline*. You will find the corresponding analyses in the R script `src/closed_ended_questions.R`.
 
 ## Experience and Expertise
 
-The correlation table mentioned in Section 6.1 can be found in directory `doc`:
+The correlation table mentioned in Section 6.1 can be found in the directory `doc`:
 
 ![correlation table](doc/correlation-table.png)
 
 The R script `src/correlations.R`  creates three CSV files for each sample:
 
-1. `correlations_sample{1|2|3}_coefficients.csv` containing the calculated correlation coefficients.
-2. `correlations_sample{1|2|3}_p-values.csv` containing the corresponding p-values.
-3. `correlations_sample{1|2|3}_n.csv` containing the number of observations considered for the calculation of the correlations.
+1. `results/correlations_sample{1|2|3}_coefficients.csv` containing the calculated correlation coefficients.
+2. `results/correlations_sample{1|2|3}_p-values.csv` containing the corresponding p-values.
+3. `results/correlations_sample{1|2|3}_n.csv` containing the number of observations considered for the calculation of the correlations.
 
 To replicate the analysis described in Section 6.2, please open the R script `src/self-assessments.R`. You will find the reported statistics in this file. Moreover, you can create the figure `results/boxplots_dreyfus.pdf` that visualizes the results (but didn't make it into the paper).
 
 ## Coding Schema
 
 The trace to concepts and categories described in Sections 3 to 5, please open the MAXQDA files provided in the directory `results/qualitative-analysis/sample{1|2|3}`.
-In directory `doc`, we aldo provide a brief descriptions of MAXQDA's GUI:
+In directory `doc`, we also provide a brief description of MAXQDA's GUI:
 
 ![correlation table](doc/maxqda.png)
 
