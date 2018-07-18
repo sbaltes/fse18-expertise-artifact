@@ -1,6 +1,6 @@
-# Artifact for ESEC/FSE 2018 paper "Towards a Theory of Software Development Expertise"
+# Supplementary Material for ESEC/FSE 2018 paper "Towards a Theory of Software Development Expertise"
 
-This artifact enables researchers to replicate the quantitative results from our  [paper](http://empirical-software.engineering/assets/pdf/fse18-expertise.pdf) and to trace the qualitative results from the high-level concepts and categories described in the paper to participants' responses.
+This dataset enables researchers to replicate the quantitative results from our [paper](https://arxiv.org/abs/1807.06087) and to trace the qualitative results from the high-level concepts and categories described in the paper to participants' responses. Moreover, it provides additional figures and data that are supplemental to the results described in the paper.
 
 ## Documentation
 
@@ -45,7 +45,7 @@ Please note that the frequencies displayed in MAXQDA may differ from the number 
 
 ## Citation
 
-The dataset is available on Zenodo:
+This dataset is available on Zenodo:
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.1299798.svg)](https://doi.org/10.5281/zenodo.1299798)
 
